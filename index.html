@@ -19,8 +19,8 @@
     <title>Flower Power</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+    <header class="bg-warning">
+      <nav class="navbar navbar-expand-sm navbar-light  container">
         <a href="#" class="navbar-brand">
           <div
             class="border border-secondary rounded pr-1 text-uppercase font-weight-bold"
@@ -58,8 +58,34 @@
         </div>
       </nav>
     </header>
-
-    <h1>Flower Power</h1>
+    <main class="container">
+      <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1533907650686-70576141c030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              alt="Spring flowers"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=60"
+              alt="Yellow flowers"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=60"
+              alt="Sakura flowers"
+              class="d-block w-100"
+            />
+          </div>
+        </div>
+      </div>
+      <h1>Flower Power</h1>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
