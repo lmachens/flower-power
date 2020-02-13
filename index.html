@@ -19,9 +19,9 @@
     <title>Flower Power</title>
   </head>
   <body>
-    <header class="bg-warning">
-      <nav class="nav">
-        <a href="#" class="nav-link text-dark">
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <a href="#" class="navbar-brand">
           <div
             class="border border-secondary rounded pr-1 text-uppercase font-weight-bold"
           >
@@ -41,9 +41,21 @@
             <span>Flower Power</span>
           </div>
         </a>
-        <a href="#offers" class="nav-link text-dark">Offers</a>
-        <a href="#map" class="nav-link text-dark">Location</a>
-        <a href="#contact" class="nav-link text-dark">Contact</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navLinks"
+          aria-controls="navLinks"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav collapse navbar-collapse" id="navLinks">
+          <a href="#offers" class="nav-link">Offers</a>
+          <a href="#map" class="nav-link">Location</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
       </nav>
     </header>
 
